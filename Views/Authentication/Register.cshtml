@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+
+}
+
+
+<span href="#" class="button" id="toggle-login">Register</span>
+
+<div id="login">
+    <div id="triangle"></div>
+    <h1>Register</h1>
+    <form method="post" asp-action="AuthenticateRegister">
+        <input type="text" placeholder="Username" name="Username" />
+        <input type="password" placeholder="Password" name="Password"/>
+        <input type="submit" value="Register" />
+        <br />
+        <br />
+        <button asp-controller="Authentication" asp-action="Login" class="bluebutton">Login</button>
+    </form>
+    <br />
+
+</div>

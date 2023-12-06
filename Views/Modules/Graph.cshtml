@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "Graph";
+}
+
+@model List<StudyLogs>
+
+<div>
+    <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // Declare arrays to hold data
+    var Dates = [];
+    var RemainingHours = [];
+
+    // Populate arrays from Razor model
+    @foreach (var item in Model)
+    {
+        @:Dates.push('@item.Date.ToString("yyyy-MM-dd")');
+        @:RemainingHours.push(@item.RemainingHoursOfStudy);
+    }
+
+        // Get the chart canvas
+        const ctx = document.getElementById('myChart');
+
+    // Define an array of alternating colors
+    var alternatingColors = [
+        'rgba(128, 0, 0, 1)',
+        'rgba(255, 165, 0, 1)',
+        'rgba(255, 255, 0, 1)',
+        'rgba(0, 255, 0, 1)',
+        'rgba(0, 0, 255, 1)',
+        'rgba(128, 0, 32, 1)',
+        'rgba(255, 192, 203, 1)'// Add more colors as needed
+    ];
+
+    // Create a new bar chart
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: Dates,
+            datasets: [
+                {
+                    label: 'Hours Studied',
+                    data: RemainingHours,
+                    backgroundColor: Dates.map((date, index) => alternatingColors[index % alternatingColors.length]),
+                },
+            ],
+        }
+    });
+</script>

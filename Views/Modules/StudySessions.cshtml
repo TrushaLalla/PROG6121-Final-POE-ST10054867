@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "StudySessions";
+
+}
+
+<h1>StudySessions</h1>
+<form class="row g-3" method="post" asp-action="CreateStudySessions">
+    @{
+      string id = Model.Code ;
+    }
+    <div class="col-md-6">
+        <label for="inputCode" class="form-label">Module Code</label>
+        <input type="text" class="form-control" id="inputCode" name="txtModCode" value="@Model.Code" disabled readonly>
+    </div>
+    <div class="col-md-6">
+        <label for="txtModName" class="form-label">Module Name</label>
+        <input type="text" class="form-control" id="txtModName" name="txtModName" value="@Model.Name" disabled readonly>
+    </div>
+    <div class="col-md-4">
+        <label for="inputStudyDate" class="form-label">Study Date</label>
+        <input type="date" class="form-control" id="inputStudyDate" name="Date">
+    </div>
+    <div class="col-md-4">
+        <label for="inputHours" class="form-label">Number of hrs studied</label>
+        <input type="text" class="form-control" id="inputHours" name="RemainingHoursOfStudy">
+    </div>
+    <div >
+        <button type="submit" class="btn btn-primary" id="DoneBtn">Submit</button>
+    </div>
+</form>
