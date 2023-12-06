@@ -14,13 +14,13 @@ The necessary technologies that are used to run this application / code will be 
 
 To get access to my project, the user will need to create an account on GitHub and will need to copy paste the link to my repository or can go directly to the below GitHub link.
 
-I have created this project all by myself , putting in enough time and hard work with the help of no class members to get a lovely http website created for the public.
+I have created this project mostly by myself , putting in enough time and hard work with the help of some class members to get a lovely http website created for the public.
 
 **What this software intends to do**
 
 This project is about a time management application which captures the number of hours a student has spent studying suring a semester and how it calculates the remaining hours of study using a certain formula (number of credits *10/number of weeks - the class hours per week). 
 I have coded all of the instructions in the document in different classes which is all stored in a custom class library. This library has already been referenced in the main project. It prompts the user for all necesasary details which a standard time application of study sessions would do. The same functions from the previous part has been implemented here in this very website. 
-My project is a 5 -page website of which the first is the authentication page, second the Index / Homepage, third the link to create new projects, fourth the link to add a study session and fifth the a graph. This graph is an additional feature that 
+My project is a 5 -page website of which the first is the authentication page, second the Index / Homepage, third the link to create new projects, fourth the link to add a study session and fifth the a graph. This graph is an additional feature that depicts the number of hours spent on a module per week as well as the ideal calculated number of hours.
 
 **Goal for this project**
 
