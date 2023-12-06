@@ -1,0 +1,33 @@
+# PROG6121-Final-POE-ST10054867
+
+**Title**
+
+The title of my project is called "Trial".
+
+**Application and Language used**
+
+This project was coded on Windows using an application called Microsoft Visual Studio 2022 in English therefore no translator is required and your system should have enough RAM and internet connection to be able to run the Web Application.
+
+**How to run and compile this software.**
+
+The necessary technologies that are used to run this application / code will be a Microsoft Visual Studio 2022 already downloaded onto your computer workstation or laptop. The user will click on the Green Start play Button located on the top of the Visual studio app.
+
+To get access to my project, the user will need to create an account on GitHub and will need to copy paste the link to my repository or can go directly to the below GitHub link.
+
+I have created this project all by myself , putting in enough time and hard work with the help of no class members to get a lovely http website created for the public.
+
+**What this software intends to do**
+
+This project is about a time management application which captures the number of hours a student has spent studying suring a semester and how it calculates the remaining hours of study using a certain formula (number of credits *10/number of weeks - the class hours per week). 
+I have coded all of the instruction in the document in different classes which is all stored in a custom class library/ This library has already been refernced in the main project, as well as will be posted here onto GitHub. It prompts the user for all necesasary details which a standard time application of study sessions would do. 
+My project offers the user an option if they would like to re-enter or add in another module and date on the respective pages.If not, the the software will then produce an alphabetical list of module names for the user to choose from and once they have chosen the module with the date it will be displayed beautifully in full to them.
+
+**Goal for this project**
+
+My motivation for this project was to create a GUI/ user friendly, colourful, easy to use and to follow application.
+
+**LINKS:**
+GitHub Repo: https://github.com/VCSTDN/prog6212-part-1-TrushaLalla.git
+
+
+YouTube Channel explaining & running of the app: https://www.youtube.com/@yograjlalla4338 
