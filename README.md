@@ -27,7 +27,7 @@ My project is a 5 -page website of which the first is the authentication page, s
 My motivation for this project was to create a GUI/ user friendly, colourful, easy to use and to follow application.
 
 **LINKS:**
-GitHub Repo: https://github.com/TrushaLalla/PROG6121-Final-POE-ST10054867/tree/main 
+GitHub Repo: https://github.com/TrushaLalla/PROG6121-Final-POE-ST10054867/blob/main/README.md 
 
 
 YouTube Channel explaining & running of the app: https://www.youtube.com/@yograjlalla4338 
